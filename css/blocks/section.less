@@ -1,0 +1,129 @@
+// main: ../style.less
+
+.input_relative {
+    position: relative;
+    top: -100px;
+    padding: 40px 70px;
+    background: #FFFFFF;
+    box-shadow: 8px 8px 100px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.input {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.input_subtitle {
+    color: @black;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1;
+
+}
+
+.input_title {
+    font-size: 20px;
+    font-weight: 400;
+    color: @black;
+}
+
+.input input {
+    width: 700px;
+    padding: 25px 25px;
+    border: none;
+    background-color: #EFEFEF;
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;
+}
+
+.input .submit {
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    background-color: @light-blue;
+    padding: 25px 60px;
+    border-radius: 10px;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+// Section Main ------
+
+.text_top {
+    font-family: Poppins;
+    text-align: center;
+    color: #A9A9A9;
+    font-size: 20px;
+    font-weight: 500;
+}
+.section_title {
+    text-align: center;
+    color: @black;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.col_inner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+
+}
+
+.col {
+    padding: 30px;
+    background-color: @header-bg;
+    border-radius: 20px;
+    transition: background-color .2s linear;
+
+    &:hover {
+        background-color: #5F5FFE;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    &:hover .col_text {
+        color: #fff;
+    }
+    &:hover .about_col span {
+        color: #fff;
+    }
+}
+
+.col .col_text {
+    color: @black;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.col img {
+    background: #FFFFFF;
+    box-shadow: 18px 18px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 75px;
+    width: 80px;
+    margin-top: 20px;
+}
+
+.about_columns {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about_col {
+    color: @gray-sc;
+    font-weight: 400;
+    font-size: 14px;
+
+    span{
+        color: @black;
+        font-weight: 700;
+    }
+
+}
